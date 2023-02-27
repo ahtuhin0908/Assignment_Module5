@@ -1,17 +1,18 @@
-<?php
-  require_once "Template/header.php";
-?>
+<!DOCTYPE html>
+<html>
+<body>
 
+<h2>HTML Basic</h2>
 <form class="max-w-md mx-auto bg-white p-8 mt-10 rounded-lg shadow-md" action="main.php" method="POST">
     <div class="mb-4">
       <label class="block text-gray-700 font-bold mb-2" for="name">
-        Name
+        Name: <br>
       </label>
       <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="name" name="name" type="text" placeholder="Name" required>
     </div>
     <div class="mb-6">
       <label class="block text-gray-700 font-bold mb-2" for="email">
-        Email
+        Email: <br>
       </label>
       <input class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" name="email" type="email" placeholder="example@example.com" required>
     </div>
@@ -22,6 +23,6 @@
     </div>
 </form>
 
-<?php
-  require_once "Template/footer.php";
-?>
+</body>
+</html>
+
